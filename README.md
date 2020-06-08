@@ -1,4 +1,6 @@
-# frases
+# Projeto Vue.js em branco - frases
+
+Repositório com novo projeto em branco, incluindo Vuex, Vue-Router e Axios.
 
 ## Project setup
 ```
