@@ -28,7 +28,8 @@ export default new Vuex.Store({
                 .post('login', {
                     nome: usuario,
                     senha: senha
-                })
+                },
+                {headers: {Accept: 'application/json'} })
                 .then(res => {
                     console.log(res);
                     context.commit('setUsuario', usuario);
